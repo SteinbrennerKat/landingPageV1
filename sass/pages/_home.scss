@@ -1,0 +1,9 @@
+.section-about {
+  background-color: $color-grey-the-lightest;
+  padding: 25rem 0;
+  margin-top: -20vh;
+  &-description {
+    display: flex;
+    justify-content: space-around;
+  }
+}
