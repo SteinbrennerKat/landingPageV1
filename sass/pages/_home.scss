@@ -5,5 +5,34 @@
   &-description {
     display: flex;
     justify-content: space-around;
+
+    &-text-content {
+      max-width: 33vw;
+    }
+
+    &-image-composition {
+      min-width: 33vw;
+    }
   }
+}
+.section-features {
+  padding: 20rem 0;
+  background-image: linear-gradient(
+                  to right bottom,
+                  rgba($color-primary-light, 0.4),
+                  rgba($color-primary-dark, 0.6)),
+  url("../../img/nat-4.jpg");
+  background-size: cover;
+  transform: skewY(-7deg);
+  margin-top: -11.2rem;
+
+  &--flexbox {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  //Direct childs selector > for children, * for all
+  &> * {
+    transform: skewY(7deg);
+  }
+
 }
