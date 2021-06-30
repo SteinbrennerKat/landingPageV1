@@ -27,7 +27,7 @@
 
     &:hover {
       outline: 1rem solid rgba($color-accent-turquoise-light, .8);
-      transform: scale(1.05) translateY(-.5rem) rotate(-10deg);
+      transform: scale(1.05) translateY(-.5rem) rotate(-5deg);
       box-shadow: 0 2.5rem 4rem rgba($color-black, .55);
       z-index: 20;
     }
