@@ -5,5 +5,13 @@
   &-description {
     display: flex;
     justify-content: space-around;
+
+    &-text-content {
+      max-width: 33vw;
+    }
+
+    &-image-composition {
+      min-width: 33vw;
+    }
   }
 }
